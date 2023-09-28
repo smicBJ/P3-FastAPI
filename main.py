@@ -5,7 +5,7 @@ import uvicorn
 app = FastAPI()
 
 
-@app.get("/helper/random_number")
+@app.get("/")
 def random_number_helper():
     random_num = randint(0, 1000000000000000000000000000000)
     return {"number": random_num}
