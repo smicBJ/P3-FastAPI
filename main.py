@@ -36,5 +36,13 @@ async def get_document(name: str | None = None):
     return {"msg": "Name was not passed as a query"}
 
 
+# For the in work class assignment, we create a route at the "/secret" path
+@app.get("/secret")
+async def get_secret():
+    return "Truth is important as Lies will always hurt a person's life"
+
+
+# In this version, by using "0.0.0.0" as the host, we open our server to the network we are currently on
+# It can be accessed by going to the port at your local ip's address
 if __name__ == "__main__":
-    uvicorn.run("main:app", reload=True)
+    uvicorn.run("main:app", host="0.0.0.0", reload=True)
