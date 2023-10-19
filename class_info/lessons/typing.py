@@ -25,7 +25,7 @@ def give_phone(phone_number: str | None):
 give_phone(phone_number="407-954-1234")
 
 
-# We can also create a custom class to act as a type for a paramater:
+# We can also create a custom class_info to act as a type for a paramater:
 class Person:
 
     def __init__(self, name: str, age: int):
@@ -40,7 +40,7 @@ richard = Person(name="Richard", age=17)
 print(richard)
 
 
-# Just like with the standard types, we get access to the attributes and methods while defining our class
+# Just like with the standard types, we get access to the attributes and methods while defining our class_info
 def register_user(person: Person):
     print(person.name)
 
