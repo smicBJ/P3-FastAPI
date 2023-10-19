@@ -10,7 +10,7 @@ import uvicorn
 app = FastAPI()
 
 
-# -1: The function should be called "home_route"
+# ✅: The function should be called "home_route"
 # r1: renamed function
 @app.get("/")
 def home_route():

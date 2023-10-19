@@ -7,7 +7,7 @@ import uvicorn
 
 app = FastAPI()
 
-# -1: The name of the response function is incorrect
+# ✅: The name of the response function is incorrect
 # @app.get("/")
 # def read_home_route():
 # I did not know read is not necessary.
@@ -15,7 +15,7 @@ app = FastAPI()
 def home_route():
     return "Unit 3 Quiz"
 
-# -1: The name of the response function is incorrect
+# ✅: The name of the response function is incorrect
 # @app.get("/about_me")
 # def read_about_me():
 # I did not know read is not necessary.
@@ -23,7 +23,7 @@ def home_route():
 def about_me():
     return {"name":"Jack Zheng"}
 
-# -1: The name of the response function is incorrect
+# ✅: The name of the response function is incorrect
 # @app.get("/helper/random_number")
 # def read_random_number_helper():
 # I did not know read is not necessary.
