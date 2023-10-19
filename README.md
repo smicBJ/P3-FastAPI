@@ -1,7 +1,7 @@
 
-## Mr. Fernandes' Athlete Record
+# Mr. Fernandes' Athlete Record
 
-#### This API keeps track of all SMIC athletes and their volleyball records. You can use API to find out the list of athletes or what a specific athlete's record is
+### This API keeps track of all SMIC athletes and their volleyball records. You can use API to find out the list of athletes or what a specific athlete's record is
 
 In order to access these routes, you need to use an api key.
 For all requests, you can use the api key as a query paramter with the key and value pair of:
