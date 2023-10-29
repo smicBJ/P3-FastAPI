@@ -35,3 +35,20 @@ Example Response:
     "points": "5"
 }
 ```
+
+##### Notes for requirements file:
+
+To Create:
+```python
+pip freeze > requirements.txt
+```
+
+To Install Dependencies:
+```python
+pip install -r requirements.txt
+```
+
+To Update Dependencies:
+```python
+pip install --upgrade -r requirements.txt
+```
