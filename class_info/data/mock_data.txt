@@ -1,5 +1,5 @@
 duke du, 39, 490
-hudson jones, 2, 5
+hudson jones, 2, 5, hudson.png
 paul park, 2, 25
 adriaan cilliers, 1, 1
 henrik you, 2, 30

@@ -24,5 +24,3 @@ async def get_athlete(athlete: str, api_key: str):
                 return student
         return {"msg": "Athlete not found"}
     return {"msg": "You do not have permission to access this rss"}
-
-

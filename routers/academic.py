@@ -9,7 +9,7 @@ class Student(BaseModel):
     name: str
     grade: int
     gpa: float
-    nehs: bool | None = False
+    profile: str | None = None
 
 
 students = [

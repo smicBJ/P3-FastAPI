@@ -20,6 +20,7 @@ class Helper:
             data.append({
                 "name": athlete_data_list[0],
                 "games": athlete_data_list[1],
-                "points": athlete_data_list[2]
+                "points": athlete_data_list[2],
+                "profile": athlete_data_list[3] if len(athlete_data_list) > 3 else None
             })
         return data
