@@ -20,11 +20,11 @@ def about_me():
 def random_number_helper():
     random_num = randint(0, 100)
     # -1: It should be the key of "number"
-    return {"Number": random_num}
+    return {"number": random_num}
 
 @app.get("/funny")
 def funny():
-    return RedirectResponse(url="https://tinyurl.com/lawhousehold/")
+    return RedirectResponse(url="https://www.youtube.com/watch?v=znUS2KqPYCw")
     
 if __name__ == "__main__":
     uvicorn.run("main:app", port=6969, log_level="info", reload=True)
